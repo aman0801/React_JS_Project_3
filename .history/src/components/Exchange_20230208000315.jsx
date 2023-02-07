@@ -1,0 +1,16 @@
+import React, { useEffect } from 'react'
+import axios from 'axios'
+import { server } from ''
+
+const Exchange = () => {
+
+  useEffect(() => {
+    const fetchExchanges = async () => {
+
+    }
+  }, [])
+
+  return <div>Exchange</div>
+};
+
+export default Exchange
